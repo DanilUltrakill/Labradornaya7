@@ -1,0 +1,15 @@
+<Window x:Class="_7._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_7._2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="459.157" Width="800">
+    <Grid x:Name="grid" Margin="0,0,2,38">
+        <Viewport3D x:Name="scene" KeyDown="Scene_KeyDown"/>
+        <Button x:Name="trianglee" Content="треугольник" HorizontalAlignment="Left" Height="36" Margin="0,387,0,-135" VerticalAlignment="Top" Width="162" Click="Triangle_Click"/>
+        <Button x:Name="terrainn" Content="поле" HorizontalAlignment="Left" Height="36" Margin="222,387,0,-42" VerticalAlignment="Top" Width="165" Click="Terrain_Click"/>
+        <Button x:Name="change" Content="преобразования" HorizontalAlignment="Left" Height="36" Margin="442,386,0,-41" VerticalAlignment="Top" Width="165" Click="Change_Click"/>
+    </Grid>
+</Window>
